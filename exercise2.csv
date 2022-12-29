@@ -1,0 +1,4 @@
+,model,Test score (Accuracy),Train score (Accuracy),Number of trainable parameters,Number of layers,Regularization methods,Number of epochs,Loss function,Optimizer
+0,Basic CNN,0.71625,0.9608333110809326,9313801,11,None,12,binary_crossentropy,adam
+1,Our CNN Model,0.75625,0.8583333492279053,1964041,14,Dropout,11,binary_crossentropy,adam
+2,ResNet50V2 Transfer Learning,0.97,1.0,73729,192,None (other than the ones implemented in the transfered model),10,binary_crossentropy,adam
